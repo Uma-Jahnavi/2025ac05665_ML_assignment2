@@ -1,0 +1,40 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache and local artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter / notebook local state
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# dev
+.devcontainer/
+# Model training outputs that are generated locally
+# Keep tracked model files only if you intentionally want them in version control.
+# Uncomment the next lines only if these files should be generated locally instead of committed.
+# model/*.pkl
+# model/metrics_comparison.csv
+# model/feature_names.json
+
+# Logs
+*.log
